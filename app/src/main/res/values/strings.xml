@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ImcApp</string>
+    <string name="ol_checkbox">Olá CheckBox</string>
+    <string name="hello_world">HELLO WORLD</string>
+    <string name="ol_radiobutton">Olá RadioButton</string>
 </resources>

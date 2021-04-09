@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     override fun onStop() {
         super.onStop()
         Log.w("Lifecycle", "STOP - a tela não está mais visível mais ainda existe")
-        finish()
+
     }
 
     override fun onDestroy() {
