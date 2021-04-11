@@ -7,4 +7,5 @@
     <string name="peso_kg">Peso (ex.: 65.4 Kg)</string>
     <string name="altura_metros">Altura (ex.: 1.65 m)</string>
     <string name="calcular">Calcular</string>
+    <string name="ndice_de_massa_coporal">Índice de Massa Coporal</string>
 </resources>
