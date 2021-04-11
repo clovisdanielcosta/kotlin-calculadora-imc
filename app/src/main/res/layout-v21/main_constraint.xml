@@ -11,10 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="visible"
-        app:constraint_referenced_ids="rel_calculadoraBTN" />
+        app:constraint_referenced_ids="calcularBTN" />
 
     <TextView
-        android:id="@+id/rel_titleTXT"
+        android:id="@+id/titleTXT"
         style="@style/title_purple"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         tools:visibility="visible" />
 
     <TextView
-        android:id="@+id/rel_subtitleTXT"
+        android:id="@+id/subtitleTXT"
         style="@style/title_purple"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -46,32 +46,37 @@
         tools:visibility="visible" />
 
     <EditText
-        android:id="@+id/rel_pesoEDT"
+        android:id="@+id/pesoEDT"
         style="@style/input_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="308dp"
         android:autofillHints=""
         android:hint="@string/peso_kg"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitleTXT"
+        app:layout_constraintVertical_bias="0.181"
         tools:visibility="visible" />
 
     <EditText
-        android:id="@+id/rel_alturaEDT"
+        android:id="@+id/alturaEDT"
         style="@style/input_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:hint="@string/altura_metros"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="227dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537"
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/rel_calculadoraBTN"
+        android:id="@+id/calcularBTN"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginBottom="64dp"
@@ -83,6 +88,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="lollipop"
         tools:visibility="visible" />
 
     <androidx.constraintlayout.widget.Guideline
