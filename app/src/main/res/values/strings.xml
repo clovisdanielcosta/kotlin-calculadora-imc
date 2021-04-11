@@ -4,4 +4,7 @@
     <string name="hello_world">HELLO WORLD</string>
     <string name="ol_radiobutton">Olá RadioButton</string>
     <string name="imc">I M C</string>
+    <string name="peso_kg">Peso (ex.: 65.4 Kg)</string>
+    <string name="altura_metros">Altura (ex.: 1.65 m)</string>
+    <string name="calcular">Calcular</string>
 </resources>
