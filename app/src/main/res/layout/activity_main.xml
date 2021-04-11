@@ -3,8 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@color/black"
     android:orientation="vertical" >
-    
+
     <TextView
         style="@style/title_purple"
         android:layout_width="wrap_content"
@@ -19,15 +20,21 @@
 
     <RadioButton
         style="@style/title_purple"
-        android:textSize="22sp"
+        android:textSize="24sp"
+        android:layout_gravity="start"
+        android:layout_margin="50sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ol_radiobutton"/>
 
     <CheckBox
         style="@style/title_purple"
-        android:layout_width="310dp"
+        android:scrollbarSize="24sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ol_checkbox" />
+        android:layout_gravity="start"
+        android:layout_margin="50sp"
+        android:text="@string/ol_checkbox"
+        android:textSize="22sp" />
 
 </LinearLayout>
