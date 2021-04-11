@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rel_titleTXT" type="id" />
+    <item name="rel_pesoEDT" type="id" />
+    <item name="rel_alturaEDT" type="id" />
+    <item name="rel_calculadoraBTN" type="id" />
+</resources>

@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/titleTXT"
+        android:id="@+id/lin_titleTXT"
         style="@style/title_purple"
         android:textSize="48sp"
         android:layout_width="wrap_content"
@@ -16,21 +16,23 @@
         android:text="@string/imc" />
 
     <EditText
-        android:id="@+id/pesoEDT"
+        android:id="@+id/lin_pesoEDT"
         android:layout_width="match_parent"
         android:hint="@string/peso_kg"
         android:layout_height="wrap_content"
-        style="@style/input_style" />
+        style="@style/input_style"
+        android:autofillHints="" />
 
     <EditText
-        android:id="@+id/alturaEDT"
+        android:id="@+id/lin_alturaEDT"
         android:layout_width="match_parent"
         android:hint="@string/altura_metros"
         android:layout_height="wrap_content"
-        style="@style/input_style" />
+        style="@style/input_style"
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/calculadoraBTN"
+        android:id="@+id/lin_calculadoraBTN"
         android:backgroundTint="@color/ic_launcher_background"
         android:text="@string/calcular"
         android:padding="16dp"
