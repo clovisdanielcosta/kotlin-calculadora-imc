@@ -34,7 +34,7 @@
         android:layout_marginHorizontal="64dp"
         android:layout_width="match_parent"
         android:inputType="numberDecimal"
-        android:hint="Insira aqui sua altura"
+        android:hint="Insira aqui seu peso em kg"
         android:textColor="@color/purple_700"
         android:textStyle="bold"
         android:textAlignment="center"
@@ -43,13 +43,9 @@
 
     <Button
         android:id="@+id/calculadoraBTN"
-        android:backgroundTint="@color/ic_launcher_background"
-        android:text="Calcular"
-        android:padding="16dp"
-        android:textSize="16sp"
-        android:layout_marginTop="46dp"
-        android:layout_width="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:text="Button" />
 
 </LinearLayout>
